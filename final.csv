@@ -1,0 +1,130 @@
+Command,Description
+print(),Prints text or variables to the console.
+input(),Prompts user input.
+x in a,Checks if x is present in a.
+x not in a,Checks if x is not present in a.
+a + a2,Concatenation of lists, a new list where all elements from a are followed by all elements from a2.
+a * k,List a repeated k times.
+a[n],n-th element of the list, negative n for counting from the end.
+a[start:stop:step],List slice.
+len(a),Length of the list.
+max(a),Maximum element of the list.
+min(a),Minimum element of the list.
+sum(a),Sum of elements in the list.
+a.index(x),Index of the first occurrence of x in a.
+a.count(x),Number of occurrences of x in a.
+a.append(x),Adds x to the end of a.
+a.extend(a2),Adds elements from collection a2 to the end of a.
+del a[n],Deletes the n-th element from the list.
+del a[start:stop:step],Deletes all elements from a that fall within the slice.
+a.clear(),Deletes all elements from a.
+a.copy(),Copy of a.
+a += a2,Replaces the content of the list with a + a2.
+a *= k,Replaces the content of the list with a * k.
+a.insert(n, x),Inserts x into a at position n, shifting the subsequent part further.
+a.pop(n),Gets the n-th element from the list and simultaneously removes it from the list.
+a.remove(x),Removes the first occurrence of x from a.
+a.reverse(),Reverses the order of elements in a (reverses the list).
+a.sort(),Sorts the list in ascending order.
+a.sort(reverse=True),Sorts the list in descending order.
+bool(a),One way to check if the list is empty.
+s2 in s,Check if substring s2 is present in s.
+s2 not in s,Check if substring s2 is not present in s.
+s + s2,Concatenation (joining) of strings, where the resulting string contains all characters from s followed by all characters from s2.
+s * k,String s repeated k times.
+s[n],n-th element of the string, negative n for counting from the end.
+s[start:stop:step],String slice.
+len(s),Length of the string.
+s.find(s2),Index of the beginning of the first occurrence of substring s2 in s (returns -1 if s2 is not in s).
+s.rfind(s2),Index of the beginning of the last occurrence of substring s2 in s (returns -1 if s2 is not in s).
+s.count(s2),Number of non-overlapping occurrences of s2 in s.
+s.startswith(s2),Check if s starts with s2.
+s.endswith(s2),Check if s ends with s2.
+s += s2,Replace the content of the string with s + s2.
+s *= k,Replace the content of the string with s * k.
+s.isdigit(),Check if the string s represents an integer.
+s.isalpha(),Check if all characters in the string s are letters (including Cyrillic).
+s.isalnum(),Check if all characters in the string s are alphanumeric (digits or letters, including Cyrillic).
+s.islower(),Check if there are no uppercase letters in the string s.
+s.isupper(),Check if there are no lowercase letters in the string s.
+s.lower(),String s with all letters (including Cyrillic) converted to lowercase.
+s.upper(),String s with all letters (including Cyrillic) converted to uppercase.
+s.capitalize(),String s with the first letter converted to uppercase.
+s.lstrip(),String s with leading whitespace characters (spaces, tabs) removed.
+s.rstrip(),String s with trailing whitespace characters (spaces, tabs) removed.
+s.strip(),String s with leading and trailing whitespace characters (spaces, tabs) removed.
+s.ljust(k, c),String s left-justified with padding characters c to reach length k.
+s.rjust(k, c),String s right-justified with padding characters c to reach length k.
+s.join(a),String where strings from the list a are joined with the separator s.
+s.split(s2),List of all words in the string s (substrings separated by s2).
+s.replace(s2, s3),String s where all non-overlapping occurrences of s2 are replaced with s3.
+list(s),List of characters from the string s.
+bool(s),Check if the string s is not empty.
+int(s),Convert the string s to an integer if it represents an integer.
+float(s),Convert the string s to a floating-point number.
+str(x),Represent any object x as a string.
+print(),Prints text or variables to the console.
+input(),Prompts user input.
+x in a,Checks if x is present in a.
+x not in a,Checks if x is not present in a.
+a + a2,Concatenation of lists
+a * k,List a repeated k times.
+a[n],n-th element of the list
+a[start:stop:step],List slice.
+len(a),Length of the list.
+max(a),Maximum element of the list.
+min(a),Minimum element of the list.
+sum(a),Sum of elements in the list.
+a.index(x),Index of the first occurrence of x in a.
+a.count(x),Number of occurrences of x in a.
+a.append(x),Adds x to the end of a.
+a.extend(a2),Adds elements from collection a2 to the end of a.
+del a[n],Deletes the n-th element from the list.
+del a[start:stop:step],Deletes all elements from a that fall within the slice.
+a.clear(),Deletes all elements from a.
+a.copy(),Copy of a.
+a += a2,Replaces the content of the list with a + a2.
+a *= k,Replaces the content of the list with a * k.
+a.insert(n, x)
+a.pop(n),Gets the n-th element from the list and simultaneously removes it from the list.
+a.remove(x),Removes the first occurrence of x from a.
+a.reverse(),Reverses the order of elements in a (reverses the list).
+a.sort(),Sorts the list in ascending order.
+a.sort(reverse=True),Sorts the list in descending order.
+bool(a),One way to check if the list is empty.
+s2 in s,Check if substring s2 is present in s.
+s2 not in s,Check if substring s2 is not present in s.
+s + s2,Concatenation (joining) of strings
+s * k,String s repeated k times.
+s[n],n-th element of the string
+s[start:stop:step],String slice.
+len(s),Length of the string.
+s.find(s2),Index of the beginning of the first occurrence of substring s2 in s (returns -1 if s2 is not in s).
+s.rfind(s2),Index of the beginning of the last occurrence of substring s2 in s (returns -1 if s2 is not in s).
+s.count(s2),Number of non-overlapping occurrences of s2 in s.
+s.startswith(s2),Check if s starts with s2.
+s.endswith(s2),Check if s ends with s2.
+s += s2,Replace the content of the string with s + s2.
+s *= k,Replace the content of the string with s * k.
+s.isdigit(),Check if the string s represents an integer.
+s.isalpha(),Check if all characters in the string s are letters (including Cyrillic).
+s.isalnum(),Check if all characters in the string s are alphanumeric (digits or letters
+s.islower(),Check if there are no uppercase letters in the string s.
+s.isupper(),Check if there are no lowercase letters in the string s.
+s.lower(),String s with all letters (including Cyrillic) converted to lowercase.
+s.upper(),String s with all letters (including Cyrillic) converted to uppercase.
+s.capitalize(),String s with the first letter converted to uppercase.
+s.lstrip(),String s with leading whitespace characters (spaces
+s.rstrip(),String s with trailing whitespace characters (spaces
+s.strip(),String s with leading and trailing whitespace characters (spaces
+s.ljust(k, c)
+s.rjust(k, c)
+s.join(a),String where strings from the list a are joined with the separator s.
+s.split(s2),List of all words in the string s (substrings separated by s2).
+s.replace(s2, s3)
+list(s),List of characters from the string s.
+bool(s),Check if the string s is not empty.
+int(s),Convert the string s to an integer if it represents an integer.
+float(s),Convert the string s to a floating-point number.
+str(x),Represent any object x as a string.
+qwe,rty
